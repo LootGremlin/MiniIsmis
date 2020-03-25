@@ -1,0 +1,230 @@
+/*https://fonts.googleapis.com/css?family=Playfair+Display|Spartan|Spectral&display=swap*/
+
+body, html {
+height: 100%;
+width: 100%;
+margin: 0;
+font-family: 'Spartan';
+background-color: seashell;
+color: #333103;
+}
+
+label{
+  color: white;
+}
+
+input{
+  font-family: 'Spartan';
+  width: 300px;
+}
+
+input[type="submit"]{
+  width: 100px;
+}
+
+table{
+  width: 90%;
+  background-color: #929066;
+  padding: 20px 20px 20px 20px;
+  text-align: center;
+  margin: auto;
+}
+
+td{
+  font-family: 'Spartan';
+  color: white;
+  padding: 10px 10px 10px 10px;
+}
+
+th{
+  font-weight: 1000;
+  border-bottom: solid;
+  font-family: 'Spartan';
+  color: white;
+  padding: 20px 20px 20px 20px;
+}
+
+ul{
+  padding-top: 20px;
+}
+
+li{
+  list-style: none;
+}
+
+.dropStyleLong{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 400px;
+  font-family: 'Spartan';
+}
+
+.sectionSubject{
+  font-family: 'Spectral', serif;
+  font-size: 30px;
+  padding-top: 50px;
+}
+
+.checkboxStyle{
+  width: 50px;
+}
+
+.dropbtn {
+  color: #333103;
+  margin: 15px 20px 0 20px;
+  padding: 16px;
+  font-family: 'Spartan';
+  font-size: 16px;
+  border: none;
+  background-color: white;
+}
+
+.dropdown {
+  display: inline-block;
+  float: right;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #333103;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: white;}
+
+.container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.buttonstyle{
+  border-radius: 20px;
+  padding: 10px 10px 10px 10px;
+  background-color: whitesmoke;
+  border: none;
+  font-family: 'Spartan';
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.headingBig{
+  font-size: 50px;
+  font-family: 'Playfair Display';
+  color: #333103;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.textFormat{
+  font-family: 'Spartan';
+  font-size: 10px;
+  color: white;
+}
+
+.headingSmall{
+  font-family: 'Spartan';
+  font-size: 20px;
+}
+
+.dropStyle{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 159px;
+  font-family: 'Spartan';
+}
+
+.headerNav{
+  display: flow-root;
+  background-color: white;
+}
+
+.centerItem{
+  margin: 50px 0 100px 0;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Style tab links */
+.tablink{
+background-color: #7C8947;
+color: white;
+float: left;
+border: none;
+outline: none;
+cursor: pointer;
+padding: 14px 16px;
+font-size: 17px;
+width: 100%;
+font-family: 'Spartan';
+overflow: hidden;
+}
+
+.tablink:hover {
+background-color: #897547;
+}
+
+.navbarstyle{
+  display: flex;
+  margin: 0;
+}
+
+.card{
+  background-color: #576748;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 500px;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cardInsideForm{
+  background-color: #576748;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 500px;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.none{
+  background-color: #929066;
+  width: 70%;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
